@@ -8,14 +8,6 @@ namespace OOPPractice
 {
     interface IAnimal
     {
-        protected void animalSound();
-    }
-
-    class Pig : IAnimal
-    {
-        public override void animalSound()
-        {
-            Console.WriteLine("wee wee");
-        }
+        void animalSound();
     }
 }

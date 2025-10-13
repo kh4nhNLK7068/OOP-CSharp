@@ -16,12 +16,18 @@ namespace OOPPractice
         }
     }
 
-    class Pig : Animal
+    /*class Pig : Animal
     {
         public override void animalSound()
         {
             Console.WriteLine("wee wee");
         }
+    }*/
+    class Pig : IAnimal
+    {
+        public void animalSound()
+        {
+            Console.WriteLine("wee wee!");
+        }
     }
-
 }

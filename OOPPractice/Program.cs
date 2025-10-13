@@ -2,21 +2,21 @@
 
 namespace OOPPractice
 {
+
+    public enum Level
+    {
+        First = 1,
+        Second = 2,
+        Third = 3
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            Vehicle myCar = new Car();
-            Vehicle myTruck = new Truck();
-
-            myCar.Brand = "Toyota";
-            myTruck.Brand = "Huyndai";
-
-            myCar.Model();
-            myTruck.Model();
-
-            Pig myObj = new Pig();
-            myObj.animalSound();
+            Pig obj = new Pig();
+            obj.animalSound();
+            Level enumString = Level.Second;
+            Console.WriteLine($"{enumString}");
         }
     }
 }
