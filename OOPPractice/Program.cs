@@ -17,6 +17,9 @@ namespace OOPPractice
             obj.animalSound();
             Level enumString = Level.Second;
             Console.WriteLine($"{enumString}");
+
+
+
         }
     }
 }
